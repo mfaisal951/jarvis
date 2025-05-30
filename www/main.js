@@ -18,7 +18,7 @@ $(document).ready(function () {
     speed: "0.30",
     autostart: true
     });
-    // Siri Configiration
+    // Siri Configiration correct
 
     $('.siri-message').textillate({
         loop:true,
