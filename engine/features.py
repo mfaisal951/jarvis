@@ -11,7 +11,10 @@
 
 import os
 import pygame
+import eel
 
+
+@eel.expose
 def playAssistantSound():
     # Get the absolute path to the audio file
     base_dir = os.path.dirname(os.path.abspath(__file__))  # This is /jarvis/engine/
