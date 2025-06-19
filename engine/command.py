@@ -1,7 +1,7 @@
 import pyttsx3
 
 def speak(text):
-    
+   #this for voice 
     engine = pyttsx3.init('sapi5')
     # voices = engine.getProperty('voices')
     # engine.setProperty('voice', voices[1].id)
@@ -21,7 +21,7 @@ if __name__=="__main__":
 
 
 
-# from gtts import gTTS
+# from gtts import gTTS 
 # import pygame
 # import time
 # import os
